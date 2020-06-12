@@ -1,0 +1,19 @@
+.searchbar-div {
+    display: flex;
+}
+
+.searchbar {
+    margin: 0 auto;
+    width: 387px;
+    height: auto;
+}
+
+.logo {
+    width: 271px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.img-div {
+    display: flex;
+}
