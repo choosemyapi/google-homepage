@@ -48,7 +48,7 @@ html, body {
 .logo {
     width: 271px;
     height: auto;
-    margin: 9em auto 0 auto;
+    margin: 0 auto;
 }
 
 .img-div {
@@ -73,9 +73,14 @@ p {
     text-align: center;
 }
 
+body, header, main, footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .wrapper {
-    min-height: 100%;
-    margin-bottom: -100px;
+    margin-top: -28em;
 }
 
 footer, .push {
